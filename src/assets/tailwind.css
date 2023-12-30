@@ -1,3 +1,16 @@
+@font-face {
+  font-family: "frozen";
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Ice%20kingdom%20-%20Bold%20-%20Por%20Kustren.woff");
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  /* @apply bg-w-black-1; */
+  color: hsl(230, 100%, 95%);
+  font-size: 15px !important;
+  background: linear-gradient(135deg, hsl(230, 40%, 12%), hsl(230, 20%, 7%));
+  /* background: linear-gradient(to bottom, #000428, #004e92); */
+}
