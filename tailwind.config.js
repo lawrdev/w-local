@@ -22,7 +22,7 @@ export default {
       },
     },
     fontFamily: {
-      Roboto: ["'Poppins', sans-serif"],
+      Roboto: ["Roboto, sans-serif"],
     },
     container: {
       padding: "2rem",
