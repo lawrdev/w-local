@@ -5,7 +5,7 @@ import { useRouter } from "vue-router";
 import LocationCardSkeletonVue from "@/components/UI/LocationCardSkeleton.vue";
 import SavedLocationsList from "@/components/UI/Home/SavedLocationsList.vue";
 
-const mapboxAPIKey = import.meta.env.VITE_MapboxAPIKey;
+const mapboxAPIKey = import.meta.env.VITE_MAPBOXAPIKEY;
 
 const searchQuery = ref("");
 // to store timer for delaying search query
@@ -58,7 +58,7 @@ const getSearchResults = () => {
         v-model="searchQuery"
         @input="getSearchResults"
         placeholder="Search for a city or state"
-        class="py-2 px-1 w-full bg-transparent border-b focus:border-w-primary focus:outline-none focus:shadow-[0px_1px_0_0_#004E71]"
+        class="py-2 px-1 w-full text-[16px] bg-transparent border-b focus:border-w-primary focus:outline-none focus:shadow-[0px_1px_0_0_#004E71]"
       />
       <ul
         class="absolute z-10 bg-w-black-3 text-white w-full shadow-md py-2 px-1 top-[66px]"

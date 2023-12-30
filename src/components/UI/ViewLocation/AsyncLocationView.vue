@@ -10,7 +10,7 @@ const getWeatherData = async () => {
         `https://api.openweathermap.org/data/2.5/onecall?lat=${
           route.query.lat
         }&lon=${route.query.lng}&exclude={part}&appid=${
-          import.meta.env.VITE_OpenWeatherApiId
+          import.meta.env.VITE_OPENWEATHERAPIID
         }&units=imperial`
       );
 
