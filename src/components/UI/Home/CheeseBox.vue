@@ -24,7 +24,12 @@
     <br />
     <p class="text-red-500 text-center text-2xl mb-2">❤</p>
     <div class="w-full flex justify-center items-center">
-      <a class="w-full text-center text-w-white-2">@lawrdev</a>
+      <a
+        href="https://github.com/lawrdev"
+        target="_blank"
+        class="w-full text-center text-w-white-2"
+        >@lawrdev</a
+      >
     </div>
   </div>
 </template>
